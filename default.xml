@@ -290,7 +290,7 @@
   <!-- <project path="system/vold" name="platform/system/vold" /> -->
 
   <!-- AOSP fix for ARNDALE board -->
-  <project path="bionic" name="platform/bionic" remote="samsung_exynos_android" revision="exynos-jb" />
+  <project path="bionic" name="platform_bionic" remote="mptcp-arndale" revision="master" />
   <project path="external/skia" name="platform/external/skia" remote="samsung_exynos_android" revision="exynos-jb" />
   <project path="frameworks/av" name="platform/frameworks/av" remote="samsung_exynos_android" revision="exynos-jb" />
   <project path="frameworks/native" name="platform/frameworks/native" remote="samsung_exynos_android" revision="exynos-jb" />
