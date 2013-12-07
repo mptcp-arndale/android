@@ -8,7 +8,7 @@
 
   <default revision="refs/tags/android-4.1.1_r6" remote="aosp" sync-j="4" />
 
-  <project path="build" name="platform_build" remote="mptcp-arndale" revision="master" />
+  <project path="build" name="platform_build" remote="mptcp-arndale" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
